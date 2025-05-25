@@ -1,0 +1,142 @@
+# Chrome拡張機能用 .gitignore
+
+# ===========================================
+# Chrome Extension Development
+# ===========================================
+
+# Chrome拡張機能のパッケージファイル
+*.crx
+*.pem
+*.zip
+
+# Chrome Web Store用パッケージ
+web-store-package/
+dist/
+build/
+
+# ===========================================
+# macOS
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===========================================
+# Windows
+# ===========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===========================================
+# Node.js / npm (開発ツール用)
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ===========================================
+# IDE / Editor
+# ===========================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# ===========================================
+# 一時ファイル
+# ===========================================
+*.tmp
+*.temp
+*.log
+*.cache
+
+# ===========================================
+# 秘密情報 / 設定ファイル
+# ===========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API キーなど
+config/secrets.json
+secrets/
+
+# ===========================================
+# 開発用ファイル
+# ===========================================
+
+# テスト用ファイル
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+
+# 開発用スクリプト
+scripts/dev/
+dev-tools/
+
+# ビルド前のソースファイル（TypeScript等使用時）
+src/
+typescript/
+
+# ===========================================
+# ドキュメント作成用
+# ===========================================
+
+# Photoshop/デザインファイル
+*.psd
+*.ai
+*.sketch
+
+# 動画ファイル（デモ用除く）
+*.mov
+*.mp4
+*.avi
+# ただし、README用のdemo.gifは除外しない
+
+# ===========================================
+# プロジェクト固有
+# ===========================================
+
+# 旧バージョンのバックアップ
+backup/
+old/
+archive/
+
+# 開発中のアイコン素材
+icon-drafts/
+design-assets/
+icons/*svg
+
+# テスト用HTMLファイル
+test.html
+demo.html
+sandbox.html

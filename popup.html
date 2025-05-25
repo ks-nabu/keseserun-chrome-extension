@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>消せるん</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🙈 消せるん</h1>
+      <p>要素を非表示にしよう！</p>
+    </div>
+    
+    <div class="form-section">
+      <div class="input-group">
+        <label for="selector">ID、Class名、またはタグ名:</label>
+        <input type="text" id="selector" placeholder="例: #header, .advertisement, div, span">
+        <small>ID(#)、Class(.)、タグ名を指定可能。複数指定はカンマ区切り</small>
+      </div>
+      
+      <div class="input-group">
+        <label for="tagSelector">タグ名クイック選択:</label>
+        <select id="tagSelector">
+          <option value="">タグを選択...</option>
+          <option value="div">div (IDとclass無しのみ)</option>
+          <option value="span">span (IDとclass無しのみ)</option>
+          <option value="p">p (IDとclass無しのみ)</option>
+          <option value="img">img (IDとclass無しのみ)</option>
+          <option value="a">a (IDとclass無しのみ)</option>
+          <option value="table">table (IDとclass無しのみ)</option>
+          <option value="ul">ul (IDとclass無しのみ)</option>
+          <option value="li">li (IDとclass無しのみ)</option>
+          <option value="h1">h1 (IDとclass無しのみ)</option>
+          <option value="h2">h2 (IDとclass無しのみ)</option>
+          <option value="h3">h3 (IDとclass無しのみ)</option>
+        </select>
+        <small>選択するとフォームに追加されます</small>
+      </div>
+      
+      <div class="button-group">
+        <button id="hideBtn" class="btn btn-hide">非表示にする</button>
+        <button id="showBtn" class="btn btn-show">元に戻す</button>
+      </div>
+    </div>
+    
+    <div class="history-section">
+      <h3>非表示中の要素</h3>
+      <div id="hiddenList" class="hidden-list">
+        <p class="empty-message">まだ非表示の要素はありません</p>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <button id="resetAll" class="btn btn-reset">すべて元に戻す</button>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
