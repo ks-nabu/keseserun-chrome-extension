@@ -17,7 +17,7 @@
 
 1. このリポジトリをダウンロードまたはクローン
 ```bash
-git clone https://github.com/[your-username]/keseserun-chrome-extension.git
+git clone https://github.com/ks-nabu/keseserun-chrome-extension.git
 ```
 
 2. Chromeで `chrome://extensions/` を開く
@@ -100,7 +100,7 @@ div
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/[your-username]/keseserun-chrome-extension.git
+git clone https://github.com/ks-nabu/keseserun-chrome-extension.git
 
 # フォルダに移動
 cd keseserun-chrome-extension
@@ -137,8 +137,8 @@ cd keseserun-chrome-extension
 
 ## 📞 サポート
 
-- 🐛 **バグ報告**: [Issues](https://github.com/[your-username]/keseserun-chrome-extension/issues)
-- 💡 **機能要望**: [Issues](https://github.com/[your-username]/keseserun-chrome-extension/issues)
+- 🐛 **バグ報告**: [Issues](https://github.com/ks-nabu/keseserun-chrome-extension/issues)
+- 💡 **機能要望**: [Issues](https://github.com/ks-nabu/keseserun-chrome-extension/issues)
 - 📧 **その他**: [your-email@example.com]
 
 ---
