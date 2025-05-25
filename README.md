@@ -139,8 +139,3 @@ cd keseserun-chrome-extension
 
 - 🐛 **バグ報告**: [Issues](https://github.com/ks-nabu/keseserun-chrome-extension/issues)
 - 💡 **機能要望**: [Issues](https://github.com/ks-nabu/keseserun-chrome-extension/issues)
-- 📧 **その他**: [your-email@example.com]
-
----
-
-**Made with ❤️ by [Your Name]**
